@@ -1,0 +1,42 @@
+/*
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Comforter Brush', cursive;
+font-family: 'Lato', sans-serif;
+
+*/
+body{
+/*background-color: red;*/
+}
+
+h1{
+	font-family: 'Alfa Slab One', cursive;
+	background-color: #ccffff;
+}
+.para1{
+	font-family: 'Comforter Brush', cursive;
+}
+.para2{
+	font-family: 'Lato', sans-serif;
+}
+
+*{ box-sizing:border-box;
+}
+
+.column {
+	float: left;
+	width:30%;
+	padding: 5px;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+@media screen and (max-width: 500px) {
+	.colum {
+		width: 100%;
+	}
+}
+
